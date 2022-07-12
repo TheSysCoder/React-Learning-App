@@ -1,0 +1,25 @@
+.banner{
+    background-color:rgb(19, 152, 103);
+    padding: 200px;
+    & .heading-container{
+        .heading{
+            color: wheat;
+            font-size: 42px;
+        }
+        & .sub-heading{
+            font-size: 22px;
+            color: whitesmoke;
+        }
+    }
+    .learn-more{
+        padding: 16px 32px;
+        font-size: 16px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 6px;
+        background-color: rgb(6, 128, 46);
+        color: white;
+        cursor: pointer;
+    }
+
+}

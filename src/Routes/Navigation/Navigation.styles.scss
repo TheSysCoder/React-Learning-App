@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    .logo{
+        color: rgb(19, 152, 103);
+        font-size: 22px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  
+    }
+    .links{
+        margin-left: 20px;
+        font-size: 18px;
+        &:hover{
+            color: rgb(19, 152, 103);
+            text-decoration: underline;
+            text-underline-offset: 8px;
+        }
+    }
+    
+}
