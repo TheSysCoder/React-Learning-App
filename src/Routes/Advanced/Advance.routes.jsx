@@ -1,4 +1,6 @@
 import { Fragment } from "react";
+import AsyncAwait from "../../Components/async-await/async-await";
+import ClassComponent from "../../Components/classComponent/class.component";
 
 class User {
   constructor(name, age) {
@@ -22,6 +24,8 @@ const Advance = () => {
   return (
     <Fragment>
       <div>THis is Advance</div>
+      <ClassComponent />
+      <AsyncAwait />
     </Fragment>
   );
 };
